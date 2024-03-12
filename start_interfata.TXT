@@ -1,0 +1,17 @@
+clc
+clear all;
+close;
+VDD = 15;
+C1 = 0.0001;
+C2 = 0.0001;          
+C3 = 0.0001;
+RB1 = 16000;
+RB2 = 4000;           
+RC = 5000;
+RE = 4000;
+Vi = 20;
+f = 50;
+beta = 100;
+iC = 0.0006;       
+aux= 2;
+interfata(VDD,C1,C2,C3,RC,RB1,RB2,RE,Vi,f,iC,beta,aux);
